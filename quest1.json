@@ -4,7 +4,7 @@
   "scenes": {
     "intro": {
       "text": "Ледяная пещера сверкает от солнца, проходящего сквозь прозрачную толщу. ",
-      "image":"images/iceCave.avif",
+      "image":"images1/iceCave.avif",
       "choices":[
         {
           "text":"Бросьте d20, чтобы осмотреться",
@@ -20,20 +20,20 @@
 
     "otherCave":{
       "text":"Вокруг, кажется, нет ни души, ничего примечательного. Остаётся только бродить дальше, в надежде что-то отыскать.",
-      "image":"images/iceCave.avif",
+      "image":"images1/iceCave.avif",
       "next":"village"
     },
 
     "successExitFromVillage":{
       "text":"Кажется, по левую сторону от вас свет ярче и насыщенней. Может, там выход из пещеры? Выбора особо нет, как и вариантов, почему бы не пройти туда. Вы нашли сосульку.",
-      "image":"images/iceCave2.webp",
+      "image":"images1/iceCave2.webp",
       "sets":["icicle"],
       "next":"village"
     },
 
     "village":{
       "text":"Вы выходите прямо к деревне. Утро, вокруг тихо и уютно, с разных сторон раздаётся потрескивание костра. Как же хочется согреться... Надеюсь вы взяли в ледянной пещере сосульку, если нет - начните с начала. В какую же сторону стоит пойти?",
-      "image":"images/snowVillage.jpg",
+      "image":"images1/snowVillage.jpg",
       "choices":[
         {"text":"Прямо (центр деревни)", "next":"villageCenter"},
         {"text":"Направо (жилой домик)", "next":"woodenHome"},
@@ -50,7 +50,7 @@
 
     "lookAroundIcicle":{
       "text":"Под снегом, в лучах солнца, блестела маленькая серебряная коробочка. Наверное, пригодится...",
-      "image":"images/icicleMan.jpg",
+      "image":"images1/icicleMan.jpg",
       "sets":["present"],
       "next":"man"
     },
@@ -71,13 +71,13 @@
 
     "man":{
       "text":"— Ты кто?\nПеред вами стоит человек, плотно закутанный в теплые одежды, направляет на вас копьё. Кажется, он охранник этой деревни. Однако, видя, как у вас стучат от холода зубы, сжаливается, присвистывает, и заводит в свою сторожку отогреться.",
-      "image":"images/man.jpg",
+      "image":"images1/man.jpg",
       "next":"mansHouse"
     },
 
     "mansHouse":{
       "text":"— Нездешний? Тут чужаков не особо жалуют, да и понятия не имею, как ты тут оказался. Что дальше будем делать?",
-      "image":"images/fireplace.jpg",
+      "image":"images1/fireplace.jpg",
       "choices":[
         {"text":"Уйти домой", "next":"goHome"},
         {"text":"Остаться и осмотреть деревню", "next":"lookVillage"}
@@ -86,7 +86,7 @@
 
     "goHome":{
       "text":"Охранник понимающе кивает, тихо отдаёт теплую одежду и, кажется, садиться в раздумьях.",
-      "image":"images/fireplace.jpg",
+      "image":"images1/fireplace.jpg",
       "choices":[
         {
           "text":"Киньте d20",
@@ -112,31 +112,31 @@
 
     "lookVillage":{
       "text":"— Ну что ж, думаю, в честь праздника можно и приютить тебя ненадолго. Зимнее солнцестояние, в конце концов...",
-      "image":"images/fireplace.jpg",
+      "image":"images1/fireplace.jpg",
       "next":"activeVillage"
     },
 
     "activeVillage":{
       "text":"Деревня постепенно начала оживать, люди выходить и праздновать. Вас, кажется, приняли с радушием, делились напитками и историями. А под вечер все направились в снежную пустошь.",
-      "image":"images/activeVillage.jpg",
+      "image":"images1/activeVillage.jpg",
       "next":"thundraNight"
     },
 
     "thundraNight":{
       "text":"Темнело. Вы почему-то замерли, в ожидании. Как будто сама вселенная остановилась и замерла вместе с вами. Вы подняли голову и...",
-      "image":"images/thundraNight.jpg",
+      "image":"images1/thundraNight.jpg",
       "next":"shining"
     },
 
     "shining":{
       "text":"Небо заискрилось зеленоватыми оттенками, закрывая звёзды. Сквозь тело пробежало всепоглощающающее спокойствие и ощущение, что всё будет хорошо.",
-      "image":"images/shining.jpeg",
+      "image":"images1/shining.jpeg",
       "next":"finish"
     },
 
     "finish":{
       "text":"Коробочка, что вы подобрали ранее, начинает теплеть и... Оттаивать! Можете забрать подарок!",
-      "image":"images/present.jpg"
+      "image":"images1/present.jpg"
     }
 
   }
