@@ -37,7 +37,8 @@
       "choices":[
         {"text":"Прямо (центр деревни)", "next":"villageCenter"},
         {"text":"Направо (жилой домик)", "next":"woodenHome"},
-        {"text":"Налево (конюшни)", "next":"stable"}
+        {"text":"Налево (конюшни)", "next":"stable"},
+        {"text":"Начать заного", "next":"intro"}
       ]
     },
 
